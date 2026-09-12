@@ -56,6 +56,12 @@ flowchart LR
 - Private orchestrator boundary that keeps Docker authority out of the public application.
 - Docker/Linux operations, controlled Cloudflare ingress, monitoring, and health workflows.
 
+## Verification evidence
+
+The private source documents a **Next.js/React/TypeScript customer platform**, a Docker production container, Cloudflare-based ingress, explicit local-vs-production port separation, and build/deployment procedures. Security guidance keeps environment secrets and registrar/payment credentials server-side and explicitly prevents private server/admin URLs from leaking into customer-facing code.
+
+Operational health is treated separately from source state: a process existing, a route being reachable, and the application behaving correctly are different checks.
+
 ## Key engineering decisions
 
 ### The web application must not control Docker directly
