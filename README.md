@@ -1,3 +1,7 @@
+![Aya Cloud engineering case study cover](./assets/hero.svg)
+
+> **Visual overview:** conceptual case-study artwork based on the hosting and provisioning architecture. It does not expose live infrastructure, customer data, or private hostnames.
+
 # Aya Cloud — VPS & Hosting Operations Platform
 
 **Public engineering case study by [Levent Aydin](https://github.com/LEVENT-AY)**  
